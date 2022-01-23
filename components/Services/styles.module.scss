@@ -1,0 +1,85 @@
+.section{
+    padding: 100px 5%;
+    width: 100%;
+    background-color: var(--lightGreen);
+    overflow: hidden;
+
+    .areaTitle{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+
+        .icon{
+            font-size: 100px;
+            color: var(--gray);
+        }
+
+        .title{
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--black);
+            transform: translateX(-50px);
+        }
+    }
+
+    .services{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        
+        .carrossel{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            transition:  .3s;
+
+            .service{
+                position: relative;
+                width: 250px;
+                height: 250px;
+                background: var(--gray);
+                margin-right: 20px;
+
+                &:nth-child(2n){
+                    height: 270px;
+                }
+
+                .title{
+                    position: absolute;
+                    left: 20px;
+                    bottom: 20px;
+                    padding: 10px;
+                    font-size: 14px;
+                    color: var(--white);
+                    background: var(--black);
+                }
+            }
+        }
+    }
+
+    .controllers{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 40px;
+
+        .controller{
+            margin-left: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: var(--white);
+            background-color: var(--black);
+        }
+    }
+}
