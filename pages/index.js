@@ -4,10 +4,12 @@ import Services from "../components/Services/component"
 import Plans from "../components/Plans/component"
 import Faq from "../components/Faq/component"
 import Footer from "../components/Footer/component"
+import Header from "../components/Header/component"
 
 export default function Home() {
   return (
     <main>
+      <Header />
       <Initial />
       <Mission />
       <Services />
