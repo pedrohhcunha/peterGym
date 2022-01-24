@@ -7,7 +7,7 @@ export default function Plans(props){
         <section className={styles.section}>
             <div className={styles.areaTitle}>
                 <FontAwesomeIcon className={styles.icon} icon={faDollarSign}/>
-                <h2 className={styles.title}>Our mission</h2>
+                <h2 className={styles.title}>Choice a plan</h2>
             </div>
             <div className={styles.plans}>
                 <div className={styles.plan}>
