@@ -1,4 +1,6 @@
 import styles from './styles.module.scss'
+import Image from 'next/image'
+import imgGym from './images/img.png'
 
 export default function Initial(props){
     return(
@@ -10,6 +12,9 @@ export default function Initial(props){
                     <button className={styles.button}>Start today</button>
                     <button className={styles.button}>Learn more</button>
                 </div>
+            </div>
+            <div className={styles.areaImage}>
+                <Image layout="fill" src={imgGym} objectFit="cover" />
             </div>
         </section>
     )

@@ -9,6 +9,7 @@
     .contentArea{
         width: 100%;
         max-width: 400px;
+        margin-top: 70px;
 
         .title{
             font-size: 50px;
@@ -51,5 +52,12 @@
                 }
             }
         }
+    }
+
+    .areaImage{
+        width: 30%;
+        padding-top: calc(calc(4 /3) * 30%);
+        position: relative;
+        box-shadow: -10px 10px var(--white);
     }
 }
